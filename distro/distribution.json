@@ -1,0 +1,96 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "",
+        "smallImageText": "",
+        "smallImageKey": ""
+    },
+    "java": {
+        "oracle": "https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "servers": [
+        {
+            "id": "cobble-tournament",
+            "name": "Cobble Tournament Server",
+            "description": "Cobble Tournament Modded Server",
+            "icon": "",
+            "version": "1.0.1",
+            "address": "",
+            "minecraftVersion": "1.20.1",
+            "discord": {
+                "shortId": "",
+                "largeImageText": "",
+                "largeImageKey": ""
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modLoader": {
+                "id": "fabric-loader-0.15.11",
+                "type": "Fabric",
+                "version": "0.15.11"
+            },
+            "modules": [
+                {
+                    "id": "mods:creativecore:2.12.32",
+                    "name": "CreativeCore",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1158417,
+                        "MD5": "7aabe100af362d0df92d8ea1dbc2667b",
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/creativecore/2.12.32/creativecore-2.12.32.jar"
+                    }
+                },
+                {
+                    "id": "mods:waterframes:2.1.22",
+                    "name": "WaterFrames",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 255481,
+                        "MD5": "595a2467900abcdf00b3059c56fc0d0f",
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/waterframes/2.1.22/waterframes-2.1.22.jar"
+                    }
+                },
+                {
+                    "id": "mods:watermedia_youtube_plugin:2.1.1",
+                    "name": "WaterMedia YT Plugin",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3808537,
+                        "MD5": "436cca612ab46c29bf48c2771ecdb5e0",
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/watermedia_youtube_plugin/2.1.1/watermedia_youtube_plugin-2.1.1.jar"
+                    }
+                },
+                {
+                    "id": "mods:watermedia:2.1.37",
+                    "name": "WaterMedia",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 37046674,
+                        "MD5": "4a09ad3ea22ad258802605b8aa929bbd",
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/watermedia/2.1.37/watermedia-2.1.37.jar"
+                    }
+                },
+                {
+                    "id": "mods:watervision:0.1.0-alpha",
+                    "name": "WaterVision",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 88393,
+                        "MD5": "ea21d0d472860ab307d36ea73b885e64",
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/watervision/0.1.0-alpha/watervision-0.1.0-alpha.jar"
+                    }
+                },
+                {
+                    "id": "mods:wm_binaries:3.0.0-rc.1",
+                    "name": "WaterMedia: Binaries",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 179378119,
+                        "MD5": "67e097835161c6c4f7c5325624fc51fb",
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/wm_binaries/3.0.0-rc.1/wm_binaries-3.0.0-rc.1.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}

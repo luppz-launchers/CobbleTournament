@@ -31,22 +31,32 @@
             },
             "modules": [
                 {
-                    "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.6",
-                    "name": "Minecraft Forge (lowcodelanguage)",
+                    "id": "net.minecraftforge:forge:1.20.1-47.4.6",
+                    "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "size": 7399,
-                        "MD5": "9862132d0a0a37f068c889b0ad375891",
-                        "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.1-47.4.6/lowcodelanguage-1.20.1-47.4.6.jar"
+                        "size": 0,
+                        "MD5": null,
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.6/forge-1.20.1-47.4.6-universal.jar"
                     },
                     "subModules": [
+                        {
+                            "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.6",
+                            "name": "Minecraft Forge (lowcodelanguage)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 0,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.1-47.4.6/lowcodelanguage-1.20.1-47.4.6.jar"
+                            }
+                        },
                         {
                             "id": "net.minecraftforge:fmlloader:1.20.1-47.4.6",
                             "name": "Minecraft Forge (fmlloader)",
                             "type": "Library",
                             "artifact": {
-                                "size": 424489,
-                                "MD5": "d1f3c3e5a7b2c1d9e0f8a7b6c5d4e3f2",
+                                "size": 0,
+                                "MD5": null,
                                 "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.6/fmlloader-1.20.1-47.4.6.jar"
                             }
                         },
@@ -55,8 +65,8 @@
                             "name": "Minecraft Forge (fmlearlydisplay)",
                             "type": "Library",
                             "artifact": {
-                                "size": 61440,
-                                "MD5": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+                                "size": 0,
+                                "MD5": null,
                                 "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.6/fmlearlydisplay-1.20.1-47.4.6.jar"
                             }
                         },
@@ -65,19 +75,9 @@
                             "name": "Minecraft Forge (fmlcore)",
                             "type": "Library",
                             "artifact": {
-                                "size": 1234567,
-                                "MD5": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+                                "size": 0,
+                                "MD5": null,
                                 "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20.1-47.4.6/fmlcore-1.20.1-47.4.6.jar"
-                            }
-                        },
-                        {
-                            "id": "net.minecraftforge:forge:1.20.1-47.4.6",
-                            "name": "Minecraft Forge",
-                            "type": "ForgeHosted",
-                            "artifact": {
-                                "size": 8923456,
-                                "MD5": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
-                                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.6/forge-1.20.1-47.4.6-universal.jar"
                             }
                         }
                     ]
@@ -119,7 +119,7 @@
                     "artifact": {
                         "size": 37046674,
                         "MD5": "4a09ad3ea22ad258802605b8aa929bbd",
-                        "url": "https://github.com/luppz-launchers/CobbleTournament/releases/download/distribution/repo.mods.watermedia.2.1.37.watermedia-2.1.37.jar"
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/watermedia/2.1.37/watermedia-2.1.37.jar"
                     }
                 },
                 {
@@ -139,7 +139,7 @@
                     "artifact": {
                         "size": 179378119,
                         "MD5": "67e097835161c6c4f7c5325624fc51fb",
-                        "url": "https://github.com/luppz-launchers/CobbleTournament/releases/download/distribution/repo.mods.wm_binaries.3.0.0-rc.1.wm_binaries-3.0.0-rc.1.jar"
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/wm_binaries/3.0.0-rc.1/wm_binaries-3.0.0-rc.1.jar"
                     }
                 }
             ]

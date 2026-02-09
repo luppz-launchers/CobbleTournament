@@ -369,7 +369,7 @@
                     "artifact": {
                         "size": 37046674,
                         "MD5": "4a09ad3ea22ad258802605b8aa929bbd",
-                        "url": "https://github.com/luppz-launchers/CobbleTournament/releases/download/distribution/repo.mods.watermedia.2.1.37.watermedia-2.1.37.jar"
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/watermedia/2.1.37/watermedia-2.1.37.jar"
                     }
                 },
                 {
@@ -389,7 +389,47 @@
                     "artifact": {
                         "size": 179378119,
                         "MD5": "67e097835161c6c4f7c5325624fc51fb",
-                        "url": "https://github.com/luppz-launchers/CobbleTournament/releases/download/distribution/repo.mods.wm_binaries.3.0.0-rc.1.wm_binaries-3.0.0-rc.1.jar"
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/wm_binaries/3.0.0-rc.1/wm_binaries-3.0.0-rc.1.jar"
+                    }
+                },
+                {
+                    "id": "cpw.mods:bootstraplauncher:1.1.2",
+                    "name": "Minecraft Forge (bootstraplauncher)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": null,
+                        "url": "https://maven.minecraftforge.net/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+                    }
+                },
+                {
+                    "id": "cpw.mods:securejarhandler:2.1.10",
+                    "name": "Minecraft Forge (securejarhandler)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": null,
+                        "url": "https://maven.minecraftforge.net/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+                    }
+                },
+                {
+                    "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+                    "name": "Minecraft Forge (JarJarFileSystems)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": null,
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+                    }
+                },
+                {
+                    "id": "forge-1.20.1-47.4.6-version",
+                    "name": "Minecraft Forge 1.20.1-47.4.6 Version Manifest",
+                    "type": "VersionManifest",
+                    "artifact": {
+                        "size": 1903,
+                        "MD5": "4c5359f09a07257bc6e481b678db461d807d6eeb92a5ab9ab0910f80620b414f",
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/forge-1.20.1-47.4.6-version.json"
                     }
                 }
             ]

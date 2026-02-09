@@ -319,16 +319,6 @@
                                 "MD5": null,
                                 "url": "https://maven.minecraftforge.net/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
                             }
-                        },
-                        {
-                            "id": "net.minecraftforge:forge-version-manifest:1.20.1-47.4.6",
-                            "name": "Forge Version Manifest",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 0,
-                                "MD5": null,
-                                "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/forge-1.20.1-47.4.6-version.json"
-                            }
                         }
                     ]
                 },
@@ -369,7 +359,7 @@
                     "artifact": {
                         "size": 37046674,
                         "MD5": "4a09ad3ea22ad258802605b8aa929bbd",
-                        "url": "https://github.com/luppz-launchers/CobbleTournament/releases/download/distribution/repo.mods.watermedia.2.1.37.watermedia-2.1.37.jar"
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/watermedia/2.1.37/watermedia-2.1.37.jar"
                     }
                 },
                 {
@@ -389,7 +379,7 @@
                     "artifact": {
                         "size": 179378119,
                         "MD5": "67e097835161c6c4f7c5325624fc51fb",
-                        "url": "https://github.com/luppz-launchers/CobbleTournament/releases/download/distribution/repo.mods.wm_binaries.3.0.0-rc.1.wm_binaries-3.0.0-rc.1.jar"
+                        "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/mods/wm_binaries/3.0.0-rc.1/wm_binaries-3.0.0-rc.1.jar"
                     }
                 },
                 {
@@ -423,13 +413,13 @@
                     }
                 },
                 {
-                    "id": "net.minecraftforge:forge:1.20.1-47.4.6:version-manifest",
-                    "name": "Minecraft Forge 1.20.1-47.4.6 Version Manifest Wrapper",
+                    "id": "net.minecraftforge:forge-config:1.20.1-47.4.6",
+                    "name": "Minecraft Forge 1.20.1-47.4.6 Config",
                     "type": "Library",
                     "artifact": {
                         "size": 0,
                         "MD5": "00000000000000000000000000000000",
-                        "url": "http://localhost/dummy"
+                        "url": "https://maven.minecraftforge.net/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
                     },
                     "subModules": [
                         {

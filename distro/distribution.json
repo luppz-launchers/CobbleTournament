@@ -420,19 +420,7 @@
                         "size": 0,
                         "MD5": "00000000000000000000000000000000",
                         "url": "https://maven.minecraftforge.net/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "1.20.1-47.4.6",
-                            "name": "Minecraft Forge 1.20.1-47.4.6 Version Manifest",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 1903,
-                                "MD5": "4c5359f09a07257bc6e481b678db461d807d6eeb92a5ab9ab0910f80620b414f",
-                                "url": "https://raw.githubusercontent.com/luppz-launchers/CobbleTournament/main/distro/repo/forge-1.20.1-47.4.6-version.json"
-                            }
-                        }
-                    ]
+                    }
                 }
             ]
         }
